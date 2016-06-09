@@ -1,0 +1,43 @@
+/*to use for my chocie selector*/
+
+.top-nav {
+	background: grey;
+	position: fixed;
+	width: 100%;
+}
+
+
+.top-nav > .content{
+	width:50%;
+	height:4.25em;
+	float: right;
+	padding-right: 3em;
+}
+
+
+.top-nav .links li{
+	display: inline-block;
+	padding:.5em;
+	font-size: 1.5em;
+}
+
+
+
+
+
+.logo{
+	width:2em;
+	height: 2.5em;
+	margin: .7em;
+	padding: 0 0 0 30em;
+}
+
+.introduction{
+	background-image: url("../images/karmapic.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 46rem;
+}
+
+
