@@ -1,5 +1,7 @@
-/*to use for my chocie selector*/
-
+body{
+	margin-top: -50px;
+	/*to fix white space at the top*/
+}
 .top-nav {
 	background: grey;
 	position: fixed;
@@ -26,7 +28,7 @@
 	width:2em;
 	height: 2.5em;
 	margin: .7em;
-	padding: 0 0 0 30em;
+	padding: 0 0 0 20em;
 }
 
 
