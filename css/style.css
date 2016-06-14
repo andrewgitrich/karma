@@ -1,11 +1,13 @@
 body{
-	margin-top: -50px;
+	margin: -50px;
 	/*to fix white space at the top*/
+
 }
 .top-nav {
 	background: grey;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 
 .content{
@@ -55,6 +57,11 @@ h3{
 	padding-top: 1em;
 }
 
+/*dont forget to style this*/
+h2{
+	text-align: center;
+}
+
 button{
 	border-radius: 4px;
 	width: 200px;
@@ -66,8 +73,18 @@ button{
 	font-size: 20px; 
 	margin:0 auto;
 	display: block;
+}
 
+.cases{
+	height: 30rem;
+}
 
-	
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
 }
 
