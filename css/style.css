@@ -1,68 +1,75 @@
 body{
-	margin: -50px;
-	/*to fix white space at the top*/
-
+/*clears the default browser margin	*/
+	margin: 0;
 }
-.top-nav {
+
+ul{
+	/*clears the browser default padding*/
+	padding: 0;
+}
+
+
+nav {
 	background: grey;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+/*clears spacing on top*/
+	top: 0;
 }
 
-.content{
-	width:50%;
-	height:4.25em;
+div{
+	width:1170px;
+	margin: 0 auto;
+}
+
+
+nav ul{
 	float: right;
-	padding-right: 3em;
-	display: inline-block;
 }
 
-
-.top-nav .links li{
+nav ul li{
 	display: inline-block;
-	padding:.5em;
+	padding: .5em;
 	font-size: 20px;
 }
 
-
-.logo{
-	width:2em;
-	height: 2.5em;
-	margin: .7em;
-	padding: 0 0 0 20em;
+nav img{
+	float: left;
+	height: 3rem;
+	padding-top: .6rem;
+	margin-left: 20rem;
 }
 
 
-.introduction{
+header{
 	background-image: url("../images/karmapic.jpg");
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 46rem;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 46rem;
 }
 
-
-h1{
-	color: white;
-	font-size: 3.5em;
-	text-align: center;
-	padding-top: 5em;
-}
-
-h3{
+header h1{
 	color: white;
 	font-size: 1.5em;
 	text-align: center;
-	padding-top: 1em;
-}
-
+	padding-top: 5em;
 /*dont forget to style this*/
-h2{
-	text-align: center;
 }
 
-button{
+header h3{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+h4{
+	padding-left: 7rem;
+}
+
+header button{
 	border-radius: 4px;
 	width: 200px;
 	height: 50px;
@@ -75,16 +82,30 @@ button{
 	display: block;
 }
 
-.cases{
-	height: 30rem;
+section {}
+section h2 {
+    text-align: center;
 }
 
-.cases .devices {
+section ul {}
+section ul li {
     width: 33.3333333%;
     display: inline-block;
-    /* styles to assist with debugging */
     border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
+    margin-right: -4px;
 }
 
+section ul li img {
+	height: 9rem;
+	padding-left: 8rem;
+}
+section ul li h5 {}
+
+
+footer {}
+
+footer p {
+    text-align: center;
+}
