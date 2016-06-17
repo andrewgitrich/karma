@@ -10,12 +10,14 @@ ul{
 
 
 nav {
-	background: grey;
+	background: white;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
 /*clears spacing on top*/
 	top: 0;
+	border-bottom: 1px solid black;
+	height: 80px;
 }
 
 div{
@@ -68,6 +70,7 @@ header h3{
 
 h4{
 	padding-left: 7rem;
+	font-size: 22px;
 }
 
 header button{
@@ -117,10 +120,11 @@ section ul li h5 {
 
 footer div ul li {
 	display: inline-block;
-	margin:0 auto;
+	margin:0 10px;
 	padding: 0 2rem;
 	cursor: pointer;
 	border: 1px solid black;
+	border-radius: 25px;
 	font-size: 35px;
 
 
@@ -143,6 +147,15 @@ footer{
 	padding-bottom: 150px;
 }
 
-footer div ul li i{
-	font-size: 15px;
+#twitter{
+	color: lightblue;
+}
+
+#facebook{
+	color: blue;
+}
+
+
+#instagram{
+	color: grey;
 }
