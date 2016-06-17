@@ -96,7 +96,6 @@ section ul {}
 section ul li {
     width: 33.3333333%;
     display: inline-block;
-    border: 1px solid black;
     box-sizing: border-box;
     height: 12em;
     margin-right: -4px;
@@ -115,13 +114,35 @@ section ul li h5 {
 	text-align: center;
 }
 
-span{
-	text-align: center;
+
+footer div ul li {
+	display: inline-block;
+	margin:0 auto;
+	padding: 0 2rem;
+	cursor: pointer;
+	border: 1px solid black;
+	font-size: 35px;
+
+
 }
 
 
-footer {}
+footer div ul{
+	width: 1170px;
+	margin: 0 auto;
+	text-align: center;
 
+
+}
 footer p {
     text-align: center;
+    margin-left: 20px;
+}
+
+footer{
+	padding-bottom: 150px;
+}
+
+footer div ul li i{
+	font-size: 15px;
 }
